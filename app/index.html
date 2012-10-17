@@ -28,6 +28,9 @@
         <!-- build:js scripts/scripts.js -->
         <script src="scripts/vendor/jquery.min.js"></script>
         <script src="components/underscore/underscore.js"></script>
+	<script src="scripts/yql_query.js"></script>
+	<script src='http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%3D%22http%3A%2F%2Frss.news.yahoo.com%2Frss%2Ftopstories%22&format=json&callback=cbfunc'>  
+  </script>  
         <!-- endbuild -->
 
     </body>
